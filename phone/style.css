@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.content {
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header img{
+    width: 30px;
+}
+.option .content {
+    background-color: #dddddd;
+    
+}
+.option .item{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+.option .icon{
+    background-color: #eeeeee;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+   
+}
+.text2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+.text1{
+    margin-top: 20px;
+    background-color: #eeeeee;
+    height: 85px;
+    border-radius: 20px;
+    width: 100%;
+}
+.line{
+    margin-top: 10px;
+    background-color: #eeeeee;
+    height: 5px;
+    border-radius: 20px;
+    width: 70px;
+  
+   
+}
+.body{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.left .item1{
+    width: 100%;
+    height: 200px;
+    background-color: #eeeeee;
+    margin-top: 20px;
+    border-radius: 16px;
+}
+.left .item2{
+    height: 100px;
+    background-color: #eeeeee;
+    margin-top: 20px;
+    border-radius: 16px;
+
+}
+.right .item2{
+    width: 100%;
+    height: 200px;
+    background-color: #eeeeee;
+    margin-top: 20px;
+    border-radius: 16px;
+  margin-left: 8px;
+}
+.right .item1{
+    margin-left: 8px;
+    height: 100px;
+    background-color: #eeeeee;
+    margin-top: 20px;
+    border-radius: 16px;
+}
+
+.dots{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 2px;
+  
+}
+ .dot{
+  margin-left: 3px;
+    margin-top: 9px;
+    height: 5px;
+    width: 5px;
+    background-color:#eeeeee;
+    border-radius: 50%;
+  
+}
